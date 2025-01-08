@@ -1,0 +1,27 @@
+<!--Original code -->
+
+<!--
+<form method="POST">
+    {% csrf_token %}
+    {{form}}
+    <button type="submit">Signup</button>
+</form>
+-->
+
+<form method="POST" class="p-4 shadow rounded" style="max-width: 400px; margin: auto;">
+    {% csrf_token %}
+    <h2 class="text-center mb-4">Signup</h2>
+    
+    <!-- Render each field with Bootstrap styling -->
+    {% for field in form %}
+    <div class="mb-3">
+        {{ field.label_tag }}
+        {{ field }}
+        {% if field.errors %}
+        <div class="text-danger small">{{ field.errors }}</div>
+        {% endif %}
+    </div>
+    {% endfor %}
+    
+    <button type="submit" class="btn btn-primary w-100">Signup</button>
+</form>
