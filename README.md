@@ -66,7 +66,7 @@ The Food Menu App is a web application built using the Django framework. This pr
 ## How It Works
 - *Views and Templates:* Handles the user interface and logic for displaying content.
 - *Models:* Defines the database structure for menu items, user profiles, and more.
-- 8URL Patterns:* Routes requests to appropriate views.
+- *URL Patterns:* Routes requests to appropriate views.
 - *Static and Media Files:* Manages CSS, JS, and uploaded images.
 ---
 ## Technologies Used
