@@ -1,9 +1,12 @@
-Food Menu App - Django Project
-Project Overview
-The Food Menu App is a web application built using the Django framework. This project provides functionality for managing a food menu, including adding, editing, and deleting items, viewing details, user authentication, and profile management. It’s designed to demonstrate the core features of Django, such as views, models, templates, static files, and more.
+# Food Menu App - Django Project
 
-Key Features
-Dynamic Food Menu: Add, edit, view, and delete food items with descriptions, prices, and images.
+## Project Overview
+The Food Menu App is a web application built using the Django framework. This project provides functionality for managing a food menu, including adding, editing, and deleting items, viewing details, user authentication, and profile management. It’s designed to demonstrate the core features of Django, such as views, models, templates, static files, and more.
+---
+## Key Features
+
+### 1.*Dynamic Food Menu:*
+- Add, edit, view, and delete food items with descriptions, prices, and images.
 User Authentication: Register, log in, log out, and manage user accounts.
 Responsive Design: A user-friendly and responsive interface, optimized for different devices.
 Detail View for Items: Detailed pages for each menu item with relevant information.
